@@ -1,0 +1,280 @@
+{
+  "sections": [
+    {
+      "title": "Our Pages",
+      "posts": [
+        {
+          "title": "Jerma Debt",
+          "description": "Tracks Jerma's Debt to chat",
+          "authors": [
+            {
+              "name": "s-crypt",
+              "url": "github.com/s-crypt"
+            },
+            {
+              "name": "team",
+              "url": "github.com/JermaSites"
+            }
+          ],
+          "url": "debt.jerma.io"
+        },
+        {
+          "title": "Cameo",
+          "description": "Make your own FREE OFFICIAL Jerma985 Cameo!",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "cameo.jerma.io"
+        },
+        {
+          "title": "Soundboard",
+          "description": "A growing soundboard of Jerma's noises",
+          "authors": [
+            {
+              "name": "s-crypt",
+              "url": "github.com/s-crypt"
+            },
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "aaeeoo.jerma.io"
+        },
+        {
+          "title": "Jerma Logs",
+          "description": "A log of what Jerma has said in chat",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "logs.jerma.io"
+        },
+        {
+          "title": "Jerma Joke Tracker",
+          "description": "Tracks the +2 and -2 responses of Jerma's jokes",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "joke.jerma.io"
+        },
+        {
+          "title": "Jerma Twitch Clip Search",
+          "description": "Search Jerma's twitch clips",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "clips.jerma.io"
+        },
+        {
+          "title": "AI Chat",
+          "description": "Chat, but AI. Trained with gpt-2 and tensorflow",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "aichat.jerma.io"
+        },
+        {
+          "title": "AI Guess",
+          "description": "Test your knowledge of Jerma's Twitch Chat",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "aiguess.jerma.io"
+        },
+        {
+          "title": "Sustext",
+          "description": "Create those <del>awful good</del> tolerable \"imposter is sus\" memes",
+          "authors": [
+            {
+              "name": "ⓗⓗⓗ",
+              "url": "github.com/aechaechaech"
+            }
+          ],
+          "url": "sustext.jerma.io"
+        },
+        {
+          "title": "Birthday",
+          "description": "The Fixed Birthday Song",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "birthday.jerma.io"
+        },
+        {
+          "title": "Observing",
+          "description": "the observer jerma",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "observing.jerma.io"
+        },
+        {
+          "title": "Gym Playlist",
+          "description": "Hey bro, I uh, noticed you were having trouble with weights? You need a spotter?",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            },{
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            },{
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            },
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            },
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            },
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "gymplaylist.jerma.io"
+        },
+        {
+          "description": "₴Ɏ₴₮Ɇ₥ ɆⱤⱤØⱤ: ƚσσ ȥσɾɳყ",
+          "authors": [
+            {
+              "name": "ጀጀጀጀጀ",
+              "url": "xxx.jerma.io"
+            }
+          ],
+          "url": "xxx.jerma.io",
+          "urlName": "ֆʏֆȶɛʍ ɛʀʀօʀ"
+        },
+        {
+          "title": "Homepage",
+          "description": "This page that you are looking at.",
+          "authors": [
+            {
+              "name": "stabswell",
+              "url": "github.com/stabswell"
+            }
+          ],
+          "url": "jerma.io"
+        }
+      ]
+    },
+    {
+      "title": "The SAWGA",
+      "posts": [
+        {
+          "title": "Chapter 1: The Threat",
+          "description": "Jigsaw has made Jeremy an \"offer\"",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "puzzlepiece.jerma.io"
+        },
+        {
+          "title": "Chapter 2: The Challenge",
+          "description": "Can Jerma preform the tasks he claims to be a master at in the time allotted?",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "puzzlepiece.jerma.io/sorry"
+        },
+        {
+          "title": "Chapter 3: The Comeback",
+          "description": "Jigsaw has had enough of Jeremy's games, but one more might be necessary.",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt",
+              "description": "Code (learned an entire framework for this OMEGALUL)"
+            },
+            {
+              "name": "ThomThommo",
+              "url": "deviantart.com/thomthommo",
+              "description": "3D Modeling and Art"
+            },
+            {
+              "name": "Blinkence",
+              "url": "deviantart.com/thomthommo",
+              "description": "Textures"
+            },
+            {
+              "name": "s-crypt",
+              "url": "deviantart.com/thomthommo",
+              "description": "Voice \"Acting\", Script, and QA (not as much as it seems)"
+            },
+            {
+              "compoundSentence": "The JermaSites Community for ideas and moral support.",
+              "targets": ["JermaSites Community"],
+              "urls": ["github.com/JermaSites"]
+            },
+            {
+              "compoundSentence": "Bop-it Model by Mike Holce",
+              "targets": ["Bop-it Model"],
+              "urls": ["sketchfab.com/3d-models/retro-bop-it-1996-6ec09c2002fc45d38f0732227e237eae"]
+            }
+            
+          ],
+          "url": "sawpit.jerma.io"
+        }
+      ]
+    },
+    {
+      "title": "WIP Sites",
+      "posts": [
+        {
+          "title": "Weather",
+          "description": "Get your local weather, Jerma style",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt"
+            }
+          ],
+          "url": "weather.jerma.io"
+        },
+        {
+          "title": "Sus",
+          "description": "Tracks Jerma's stream times (and more)",
+          "authors": [
+            {
+              "name": "TBD"
+            }
+          ],
+          "url": "sus.jerma.io"
+        }
+      ]
+    }
+  ]
+}

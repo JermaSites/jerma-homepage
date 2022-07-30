@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::selection {
+  @apply bg-jerma-light-blue/30
+}
+body  {
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Josefin Sans';
+  font-size: 18px !important;
+  @apply bg-jerma-deep-blue leading-snug
+}
+
+.special-button {
+  @apply bg-gradient-to-r from-jerma-light-blue via-white/80 to-jerma-light-blue rounded-md background-animate pt-0.5 text-jerma-deep-blue ring-inset font-semibold italic px-2 text-base my-2 sm:text-sm hover:text-jerma-deep-blue hover:from-jerma-light-blue hover:via-jerma-light-blue hover:to-jerma-light-blue
+}
+
+a {
+  @apply underline decoration-2 decoration-dotted hover:decoration-solid hover:opacity-80
+}
+
+.appear-animation {
+  transition: transform .0s .3s, opacity .3s;
+}
+
+.peer:focus ~ .appear-animation {
+  transition: transform .0s, opacity .3s;
+}
+
+nav a, .no-under-link {
+  @apply no-underline hover:underline hover:opacity-100
+}
+
+.background-animate:not(:hover) {
+  background-size: 400%;
+
+  -webkit-animation: rollBackground 2s linear infinite;
+  -moz-animation: rollBackground 2s linear infinite;
+  animation: rollBackground 2s linear infinite;
+}
+
+@keyframes rollBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 135% 50%;
+  }
+}
