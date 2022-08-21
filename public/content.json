@@ -1,4 +1,5 @@
 {
+  "donate": "https://cash.app/$scryp",
   "sections": [
     {
       "title": "Our Pages",
@@ -24,7 +25,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "cameo.jerma.io"
@@ -39,7 +41,8 @@
             },
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "aaeeoo.jerma.io"
@@ -83,7 +86,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "aichat.jerma.io"
@@ -94,7 +98,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "aiguess.jerma.io"
@@ -116,7 +121,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "birthday.jerma.io"
@@ -127,7 +133,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "observing.jerma.io"
@@ -138,25 +145,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
-            },{
-              "name": "stick",
-              "url": "twitter.com/stick_twt"
-            },{
-              "name": "stick",
-              "url": "twitter.com/stick_twt"
-            },
-            {
-              "name": "stick",
-              "url": "twitter.com/stick_twt"
-            },
-            {
-              "name": "stick",
-              "url": "twitter.com/stick_twt"
-            },
-            {
-              "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "gymplaylist.jerma.io"
@@ -194,7 +184,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "puzzlepiece.jerma.io"
@@ -205,7 +196,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "puzzlepiece.jerma.io/sorry"
@@ -217,6 +209,7 @@
             {
               "name": "stick",
               "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png",
               "description": "Code (learned an entire framework for this OMEGALUL)"
             },
             {
@@ -259,7 +252,8 @@
           "authors": [
             {
               "name": "stick",
-              "url": "twitter.com/stick_twt"
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
           "url": "weather.jerma.io"
