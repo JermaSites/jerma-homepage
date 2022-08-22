@@ -89,7 +89,7 @@ export default function Home() {
                   </Link>
                 )
                 }
-                <Link href='https://github.com/JermaSites' className='flex items-center w-full text-center text-jerma-pink no-underline mt-4 font-semibold justify-end'><p className='mt-[2px] mr-2'>Join us</p><Plus  className='fill-jerma-pink'/></Link>
+                <Link href='https://github.com/JermaSites' className='flex items-center w-full text-center text-jerma-pink no-underline mt-8 md:mt-4 font-semibold justify-end scale-110 -translate-x-8 md:translate-x-0  md:scale-100'><p className='mt-[2px] mr-2'>Join us</p><Plus  className='fill-jerma-pink'/></Link>
               </div>
             </div>
           </div>
@@ -105,16 +105,18 @@ export default function Home() {
 
                   {
                     section.posts.map((post, i) =>
-                      <div key={`${post.title}${i}`} className='flex-wrap p-4 text-jerma-light-blue flex justify-between items-center border-b border-jerma-light-blue/50 odd:bg-black/10 last:border-b-0 py-4 sm:py-4'>
+                      <div key={`${post.title}${i}`} className='flex-wrap p-4 text-jerma-light-blue flex justify-between border-b border-jerma-light-blue/50 odd:bg-black/5 last:border-b-0 py-4 sm:py-4 no-underline hover:opacity-100'>
                         <div className='py-2 md:py-0'>
                           <h3 className='text-3xl font-semibold mb-2'>{post.title}</h3>
                           <p className=''>{htmlFrom(post.description)}</p>
                         </div>
-                        <div className='text-right ml-auto py-2 md:py-0'>
+                        <div className='flex flex-col items-end justify-between ml-auto py-2 md:py-0'>
+                          <Link href={post.url} className='font-semibold no-under-link text-jerma-pink text-2xl md:text-xl flex items-center fill-jerma-pink text-right'><p>{post.url.split('.')[0]}</p> &nbsp;<svg fill='currentColor' xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M5.175 21.475q-1.125 0-1.887-.763-.763-.762-.763-1.887V5.175q0-1.125.763-1.888.762-.762 1.887-.762H12v2.65H5.175v13.65h13.65V12h2.65v6.825q0 1.125-.762 1.887-.763.763-1.888.763ZM10.15 15.7 8.3 13.85 17 5.175h-3v-2.65h7.475V10h-2.65V7Z"/></svg></Link><div className='w-fit'>
                           {getPostAuthorNames(post)}
-                          {getPostCredits(post)} <br />
-                          <Link href={post.url} className='text-jerma-pink' >{post.urlName || post.url}</Link>
+                          {getCreditsBtn(post)} 
                           <CreditsModal post={post} />
+                          </div>
+                          
                         </div>
                       </div>)
                   }
@@ -129,7 +131,7 @@ export default function Home() {
       </main>
 
       <footer className='bg-jerma-bright-blue text-jerma-deep-blue text-center py-4 absolute bottom-0 w-full'>
-        Made by Viewers like you ❤️ <Link href={content?.donate}>Donate if you want</Link> ❤️
+        Made by Viewers like you
       </footer>
     </div>
   )
@@ -167,7 +169,7 @@ const Plus = () => {
 
 const CreditsModal = ({ post }) => {
   return (
-    <div className='appear-animation opacity-0 justify-center items-center fixed w-screen h-screen top-0 left-0 z-50 text-jerma-light-blue scale-75 -translate-x-full peer-focus:translate-x-0 peer-focus:opacity-100 peer-focus:scale-100 flex pt-8 flex-col bg-black/20'>
+    <div onClick={(e) => {e.stopPropagation() }} className='appear-animation opacity-0 justify-center items-center fixed w-screen h-screen top-0 left-0 z-50 text-jerma-light-blue scale-75 -translate-x-full peer-focus:translate-x-0 peer-focus:opacity-100 peer-focus:scale-100 flex pt-8 flex-col bg-black/20'>
       <div className='w-fit h-fit bg-jerma-deep-blue overflow-y-auto max-h-full p-4 rounded-md border border-jerma-light-blue text-left m-6'>
         <h1 className='text-3xl font-light mb-8'>{post.title}</h1>
         {post.authors.map((author, i) =>
@@ -199,20 +201,20 @@ const CreditsModal = ({ post }) => {
   )
 }
 
-function getPostCredits(post) {
-  return post.authors.some(author => author.description) && <><br /><button tabIndex={0} className='peer special-button focus:opacity-0'>show credits</button> </>;
+function getCreditsBtn(post) {
+  return post.authors.some(author => author.description) && <><br /><button onClick={(e) => {e.stopPropagation()}} tabIndex={0} className='peer special-button focus:opacity-0 float-right'>show credits</button> </>;
 }
 
 function getPostAuthorNames(post) {
   return post.authors.filter(author => author.name).map((author, i, posts) => {
     if (i == posts.length - 1) {
-      return author.url ? <Link className='font-bold text-jerma-bright-blue whitespace-nowrap' href={author.url}>{author.name}</Link> : author.name;
+      return author.url ? <Link className='font-bold text-jerma-bright-blue whitespace-nowrap md:text-sm' href={author.url}>{author.name}</Link> : author.name;
     }
     if (i == posts.length - 2) {
-      return author.url ? <><Link className='font-bold text-jerma-bright-blue whitespace-nowrap' href={author.url}>{author.name}</Link> and </> : author.name + ' and ';
+      return author.url ? <><Link className='font-bold text-jerma-bright-blue whitespace-nowrap md:text-sm' href={author.url}>{author.name}</Link> <span className='text-sm'>and</span> </> : author.name + ' and ';
     }
     if (i < posts.length - 2) {
-      return author.url ? <><Link className='font-bold text-jerma-bright-blue whitespace-nowrap' href={author.url}>{author.name}</Link>, </> : author.name + ', ';
+      return author.url ? <><Link className='font-bold text-jerma-bright-blue whitespace-nowrap md:text-sm' href={author.url}>{author.name}</Link>, </> : author.name + ', ';
     }
   });
 }

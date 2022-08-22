@@ -14,7 +14,6 @@ export const Navbar = ({ content }) => <nav className='block w-full text-jerma-l
     <div className='space-x-8 hidden md:block ml-auto'>
       {content && content?.sections?.map(section => <Link key={'menu-' + section.title} href="#"><a onClick={goTo}>{_.lowerCase(section.title)}</a></Link>
       )}
-      <a href={content?.donate}>donate</a>  ❤️
     </div>
     <button onClick={() => goTo('top')} className='md:hidden absolute text-jerma-light-blue'><ArrowUp/></button>
     <div className='md:hidden block ml-auto'>
@@ -25,7 +24,6 @@ export const Navbar = ({ content }) => <nav className='block w-full text-jerma-l
       <div className='fixed -right-4 -top-4 transition-transform duration-300  peer-focus:translate-x-0 translate-x-full flex flex-col items-center  border border-jerma-pink pt-[61px]'>
         {content && content?.sections?.map(section => <Link key={'mobile-menu-' + section.title} href="#"><a className='block min-w-max bg-jerma-deep-blue hover:bg-jerma-light-blue hover:text-jerma-deep-blue w-full py-4 px-16 text-center even:brightness-90' onClick={goTo}>{_.lowerCase(section.title)}</a></Link>
         )}
-        <a href='https://cash.app/$scryp' className='block min-w-max bg-jerma-deep-blue hover:bg-jerma-light-blue hover:text-jerma-deep-blue hover:ring-[1px] ring-jerma-light-blue w-full py-4 px-16 text-center even:brightness-90'>donate ❤️</a>
       </div>
     </div>
   </div>
