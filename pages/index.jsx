@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 import _ from 'lodash'
 
@@ -69,7 +68,7 @@ export default function Home() {
         <div className='flex m-auto max-w-7xl flex-col md:flex-row-reverse'>
           <div className='max-w-xs mx-auto'>
             <div ref={jermaLogo} className='select-none mt-8 flex justify-center'>
-              <Image src="/JermaSPIN1.gif" alt="" width={182} height={193}/>
+              <img src="/JermaSPIN1.gif" alt="" width={182} height={193}/>
             </div>
             <div className='text-jerma-light-blue text-center mt-8 sticky top-20'>
               <h1 className='mb-2 text-xl'>{'</> We make Jerma things.'}</h1>
@@ -84,7 +83,7 @@ export default function Home() {
                 {allAuthors?.map(author => author.avatar &&
                   <Link key={author.name + '-collaborator'} className='no-underline  hover:opacity-100 flex relative items-center py-2 border-b border-jerma-light-blue/10 m:hover:bg-slate-500/5' href={author.url}>
                   
-                    {author.avatar && <div className='relative h-12 w-14 overflow-hidden rounded-full'><Image src={author.avatar} alt='' layout='fill' /></div>}
+                    {author.avatar && <div className='relative h-12 w-14 overflow-hidden rounded-full'><img src={author.avatar} alt='' layout='fill' /></div>}
                     <p className='ml-3 text-left w-full'><span className={`${author.project_count > 5 && 'gold'}`}>{author.name}</span> <br /> <span className={`opacity-70 text-sm`}>{author.project_count} collab{author.project_count > 1 && 's'}</span></p>
                   </Link>
                 )
