@@ -5,6 +5,17 @@
       "title": "Our Pages",
       "posts": [
         {
+          "title": "The List™️",
+          "description": "Contains most Jerma fan channels that have more than 1 video",
+          "authors": [
+            {
+              "name": "JakeSteam",
+              "url": "github.com/JakeSteam"
+            }
+          ],
+          "url": "channels.jerma.io"
+        },
+        {
           "title": "Jerma Debt",
           "description": "Tracks Jerma's Debt to chat",
           "authors": [
