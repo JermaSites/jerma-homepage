@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Jerma Pages Homepage
+The homepage acts as a hub to explore a variety of sites that have been uploaded to the Jerma Pages repository and credit their creators.
 
-First, run the development server:
+## Adding your own page to Jerma.io
+First go to [/public/content.json](https://github.com/JermaSites/jerma-homepage/blob/main/public/content.json)
 
+Here's where the data for all of the pages and it's authors is stored. 
+
+All it takes is to add your page data as an object inside the "posts" array of the "Our Pages" section like so: 
 ```bash
-npm run dev
-# or
-yarn dev
+{
+  ...
+  "sections": [
+    {
+      "title": "Our Pages",
+      "posts": [
+        {
+          "title": "My Jerma Site",
+          "description": "This site does some jerma stuff",
+          "authors": [
+            {
+              "name": "MyHandleOrNickname",
+              "url": "github.com/MyGithubUser"
+            }
+          ],
+          "url": "myjermasite.jerma.io"
+        },
+  ...
+}
 ```
+Note: Remember to keep the url formats as they are, just domain and route. Do not use "https://".
+Note2: Your avatar in the site will be taken from your github account in the "url". If you want to use a custom avatar OR want your profile in the homepage to redirect to somewhere else (e.g. twitter), you must also add an "avatar" property
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you have a couple or more sites that relate to eachother or follow a saga, you can add them to their own section in a similar way, by adding a new object to the "sections" array.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Once your change is up, you will see that your site and username are on the homepage now.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+That's All Folks!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Dev
+This is a [Next.js](https://nextjs.org/) project.
+You can find more info on how to run this project locally [here](https://nextjs.org/docs/getting-started/installation#run-the-development-server).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##
+hmu on discord @stabswell if you need anything :)
