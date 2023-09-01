@@ -30,6 +30,7 @@ All it takes is to add your page data as an object inside the "posts" array of t
 }
 ```
 Note: Remember to keep the url formats as they are, just domain and route. Do not use "https://".
+
 Note2: Your avatar in the site will be taken from your github account in the "url". If you want to use a custom avatar OR want your profile in the homepage to redirect to somewhere else (e.g. twitter), you must also add an "avatar" property
 
 If you have a couple or more sites that relate to eachother or follow a saga, you can add them to their own section in a similar way, by adding a new object to the "sections" array.
