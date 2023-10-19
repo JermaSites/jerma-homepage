@@ -1,0 +1,6 @@
+export * from './GithubIcon'
+export * from './Megaphone'
+export * from './ChevronUpIcon'
+export * from './JermaTeethIcon'
+export * from './DevIcon'
+export * from './MergeIcon'

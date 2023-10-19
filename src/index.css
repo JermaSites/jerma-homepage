@@ -1,0 +1,280 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#preloadedImages {
+  width: 0px;
+  height: 0px;
+  display: inline;
+  background-image: url(/JermaRave.gif);
+}
+
+/* josefin-sans-100 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 100;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-100.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-200 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 200;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-200.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-300 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-300.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-100italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 100;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-100italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-100italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-200italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 200;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-200italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-300italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 300;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-300italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-500italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 600;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-600italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700italic - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local(''),
+    url('/fonts/josefin-sans-v25-latin-700italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/josefin-sans-v25-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+::selection {
+  @apply bg-jerma-light-blue/30;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Josefin Sans';
+  font-size: 18px !important;
+  @apply bg-jerma-deep-blue leading-snug;
+}
+
+.special-button {
+  @apply bg-gradient-to-r from-jerma-light-blue via-white/80 to-jerma-light-blue rounded-md background-animate pt-0.5 text-jerma-deep-blue ring-inset font-semibold italic px-2 text-base my-2 sm:text-sm hover:text-jerma-deep-blue hover:from-jerma-light-blue hover:via-jerma-light-blue hover:to-jerma-light-blue;
+}
+
+a {
+  @apply decoration-2 decoration-slice hover:decoration-solid;
+}
+
+.appear-animation {
+  transition:
+    transform 0s 0.3s,
+    opacity 0.3s;
+}
+
+.peer:focus ~ .appear-animation {
+  transition:
+    transform 0s,
+    opacity 0.3s;
+}
+
+nav a,
+.no-under-link {
+  @apply no-underline hover:underline hover:opacity-100;
+}
+
+.background-animate:not(:hover) {
+  background-size: 400%;
+
+  -webkit-animation: rollBackground 2s linear infinite;
+  -moz-animation: rollBackground 2s linear infinite;
+  animation: rollBackground 2s linear infinite;
+}
+
+@keyframes rollBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 135% 50%;
+  }
+}
+
+.goldIcon {
+  background: linear-gradient(
+    90deg,
+    rgba(186, 148, 62, 1) 0%,
+    rgba(236, 172, 32, 1) 20%,
+    rgba(186, 148, 62, 1) 39%,
+    rgba(249, 244, 180, 1) 50%,
+    rgba(186, 148, 62, 1) 60%,
+    rgba(236, 172, 32, 1) 80%,
+    rgba(186, 148, 62, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite;
+  background-size: 200%;
+  background-position: 0;
+  opacity: 1 !important;
+  font-weight: 900 !important;
+}
+
+.gold {
+  background: linear-gradient(
+    90deg,
+    rgba(186, 148, 62, 1) 0%,
+    rgba(236, 172, 32, 1) 20%,
+    rgba(186, 148, 62, 1) 39%,
+    rgba(249, 244, 180, 1) 50%,
+    rgba(186, 148, 62, 1) 60%,
+    rgba(236, 172, 32, 1) 80%,
+    rgba(186, 148, 62, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite;
+  background-size: 200%;
+  background-position: 0;
+  opacity: 1 !important;
+  font-weight: 900 !important;
+}
+@keyframes shine {
+  to {
+    background-position: 130%;
+  }
+}

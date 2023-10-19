@@ -80,7 +80,7 @@
           ],
           "url": "clips.jerma.io"
         },
-         {
+        {
           "title": "The List™️",
           "description": "Contains most Jerma fan channels that have more than 1 video",
           "authors": [
@@ -91,13 +91,13 @@
           ],
           "url": "channels.jerma.io"
         },
-         {
+        {
           "title": "Gwordle Beasts",
           "description": "A grotto beasts -dle.",
           "authors": [
             {
               "name": "bezzdev",
-              "url": "https://github.com/bezzdev/gwordle_beasts"
+              "url": "https://github.com/bezzdev"
             }
           ],
           "url": "gwordlebeasts.com"
@@ -257,9 +257,10 @@
             {
               "compoundSentence": "Bop-it Model by Mike Holce",
               "targets": ["Bop-it Model"],
-              "urls": ["sketchfab.com/3d-models/retro-bop-it-1996-6ec09c2002fc45d38f0732227e237eae"]
+              "urls": [
+                "sketchfab.com/3d-models/retro-bop-it-1996-6ec09c2002fc45d38f0732227e237eae"
+              ]
             }
-            
           ],
           "url": "sawpit.jerma.io"
         }
