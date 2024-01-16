@@ -185,6 +185,17 @@
           "urlName": "ֆʏֆȶɛʍ ɛʀʀօʀ"
         },
         {
+          "title": "Jermdle",
+          "description": "A daily DLE game where you try to guess the stream date.",
+          "authors": [
+            {
+              "name": "jakaria",
+              "url": "github.com/JakariaMods"
+            }
+          ],
+          "url": "jermdle.jerma.io"
+        },
+        {
           "title": "Homepage",
           "description": "This page that you are looking at.",
           "authors": [
