@@ -267,6 +267,23 @@
       ]
     },
     {
+      "title": "Other Fun Projects",
+      "posts": [
+        {
+          "title": "Jermdle",
+          "description": "A Daily Jerma-Vod *DLE",
+          "authors": [
+            {
+              "name": "JakariaMods",
+              "url": "https://github.com/JakariaMods",
+              "avatar": "https://github.com/JakariaMods.png"
+            }
+          ],
+          "url": "jakariamods.github.io/Jermdle"
+        },
+      ]
+    },
+    {
       "title": "WIP Sites",
       "posts": [
         {
@@ -281,16 +298,6 @@
           ],
           "url": "weather.jerma.io"
         },
-        {
-          "title": "Sus",
-          "description": "Tracks Jerma's stream times (and more)",
-          "authors": [
-            {
-              "name": "TBD"
-            }
-          ],
-          "url": "sus.jerma.io"
-        }
       ]
     }
   ]
