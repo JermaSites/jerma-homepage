@@ -92,15 +92,16 @@
           "url": "channels.jerma.io"
         },
         {
-          "title": "Gwordle Beasts",
-          "description": "A grotto beasts -dle.",
+          "title": "Jermdle",
+          "description": "A Daily Jerma-Vod *DLE",
           "authors": [
             {
-              "name": "bezzdev",
-              "url": "https://github.com/bezzdev"
+              "name": "JakariaMods",
+              "url": "https://github.com/JakariaMods",
+              "avatar": "https://github.com/JakariaMods.png"
             }
           ],
-          "url": "gwordlebeasts.com"
+          "url": "jakariamods.github.io/Jermdle"
         },
         {
           "title": "AI Chat",
@@ -270,16 +271,15 @@
       "title": "Other Fun Projects",
       "posts": [
         {
-          "title": "Jermdle",
-          "description": "A Daily Jerma-Vod *DLE",
+          "title": "Gwordle Beasts",
+          "description": "A grotto beasts -dle.",
           "authors": [
             {
-              "name": "JakariaMods",
-              "url": "https://github.com/JakariaMods",
-              "avatar": "https://github.com/JakariaMods.png"
+              "name": "bezzdev",
+              "url": "https://github.com/bezzdev"
             }
           ],
-          "url": "jakariamods.github.io/Jermdle"
+          "url": "gwordlebeasts.com"
         }
       ]
     },
