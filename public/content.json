@@ -195,6 +195,17 @@
             }
           ],
           "url": "jerma.io"
+        },
+        {
+          "title": "Jerma Search",
+          "description": "Search through all Jerma985 twitch streams to find quotes.",
+          "authors": [
+            {
+              "name": "Martin Barker",
+              "url": "github.com/martinbarker"
+            }
+          ],
+          "url": "jermasearch.com"
         }
       ]
     },
