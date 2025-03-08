@@ -1,24 +1,45 @@
 {
-  "donate": "https://cash.app/$scryp",
   "sections": [
     {
-      "title": "Our Pages",
+      "title": "Popular Pages",
       "posts": [
         {
-            "title": "Jerma Subtitle Search",
-            "description": "Search through everything Jerma has verbally said online.",
-            "authors": [
-              {
-                "name": "Bergbok",
-                "url": "github.com/Bergbok",
-                "avatar": "https://github.com/Bergbok.png"
-              }
-            ],
-            "url": "subtitles.jerma.io"
+          "title": "Jerma Logs",
+          "description": "A log of what Jerma has said in chat",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "logs.jerma.io"
+        },
+        {
+          "title": "Jerma Twitch Clip Search",
+          "description": "Search Jerma's twitch clips",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "clips.jerma.io"
+        },
+        {
+          "title": "[New!] Jerma Subtitle Search",
+          "description": "Search through everything Jerma has verbally said online.",
+          "authors": [
+            {
+              "name": "Bergbok",
+              "url": "github.com/Bergbok",
+              "avatar": "https://github.com/Bergbok.png"
+            }
+          ],
+          "url": "subtitles.jerma.io"
         },
         {
           "title": "Jerma Debt",
-          "description": "Tracks Jerma's Debt to chat",
+          "description": "Tracks Jerma's Debt to chat, and the project that started this mess.",
           "authors": [
             {
               "name": "s-crypt",
@@ -30,19 +51,12 @@
             }
           ],
           "url": "debt.jerma.io"
-        },
-        {
-          "title": "Cameo",
-          "description": "Make your own FREE OFFICIAL Jerma985 Cameo!",
-          "authors": [
-            {
-              "name": "stick",
-              "url": "twitter.com/stick_twt",
-              "avatar": "https://github.com/sticks-stuff.png"
-            }
-          ],
-          "url": "cameo.jerma.io"
-        },
+        }
+      ]
+    },
+    {
+      "title": "All Pages",
+      "posts": [
         {
           "title": "Soundboard",
           "description": "A growing soundboard of Jerma's noises",
@@ -60,62 +74,6 @@
           "url": "aaeeoo.jerma.io"
         },
         {
-          "title": "Jerma Logs",
-          "description": "A log of what Jerma has said in chat",
-          "authors": [
-            {
-              "name": "Modus Pwnens",
-              "url": "github.com/ihunter"
-            }
-          ],
-          "url": "logs.jerma.io"
-        },
-        {
-          "title": "Jerma Joke Tracker",
-          "description": "Tracks the +2 and -2 responses of Jerma's jokes",
-          "authors": [
-            {
-              "name": "Modus Pwnens",
-              "url": "github.com/ihunter"
-            }
-          ],
-          "url": "joke.jerma.io"
-        },
-        {
-          "title": "Jerma Twitch Clip Search",
-          "description": "Search Jerma's twitch clips",
-          "authors": [
-            {
-              "name": "Modus Pwnens",
-              "url": "github.com/ihunter"
-            }
-          ],
-          "url": "clips.jerma.io"
-        },
-        {
-          "title": "The List™️",
-          "description": "Contains most Jerma fan channels that have more than 1 video",
-          "authors": [
-            {
-              "name": "JakeSteam",
-              "url": "github.com/JakeSteam"
-            }
-          ],
-          "url": "channels.jerma.io"
-        },
-        {
-          "title": "Jermdle",
-          "description": "A Daily Jerma-Vod *DLE",
-          "authors": [
-            {
-              "name": "JakariaMods",
-              "url": "https://github.com/JakariaMods",
-              "avatar": "https://github.com/JakariaMods.png"
-            }
-          ],
-          "url": "jermdle.jerma.io"
-        },
-        {
           "title": "AI Chat",
           "description": "Chat, but AI. Trained with gpt-2 and tensorflow",
           "authors": [
@@ -128,7 +86,7 @@
           "url": "aichat.jerma.io"
         },
         {
-          "title": "AI Guess",
+          "title": "AI Chat Guess",
           "description": "Test your knowledge of Jerma's Twitch Chat",
           "authors": [
             {
@@ -138,17 +96,6 @@
             }
           ],
           "url": "aiguess.jerma.io"
-        },
-        {
-          "title": "Sustext",
-          "description": "Create those <del>awful good</del> tolerable \"imposter is sus\" memes",
-          "authors": [
-            {
-              "name": "ⓗⓗⓗ",
-              "url": "github.com/aechaechaech"
-            }
-          ],
-          "url": "sustext.jerma.io"
         },
         {
           "title": "Birthday",
@@ -163,8 +110,8 @@
           "url": "birthday.jerma.io"
         },
         {
-          "title": "Observing",
-          "description": "the observer jerma",
+          "title": "Cameo",
+          "description": "Make your own FREE OFFICIAL Jerma985 Cameo!",
           "authors": [
             {
               "name": "stick",
@@ -172,7 +119,44 @@
               "avatar": "https://github.com/sticks-stuff.png"
             }
           ],
-          "url": "observing.jerma.io"
+          "url": "cameo.jerma.io"
+        },
+        {
+          "title": "Channels",
+          "description": "Contains most Jerma fan channels that have more than 1 video",
+          "authors": [
+            {
+              "name": "JakeSteam",
+              "url": "github.com/JakeSteam"
+            }
+          ],
+          "url": "channels.jerma.io"
+        },
+        {
+          "title": "Jerma Twitch Clip Search",
+          "description": "Search Jerma's twitch clips",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "clips.jerma.io"
+        },
+        {
+          "title": "Jerma's Debt",
+          "description": "Tracks Jerma's Debt to chat, and the project that started this mess.",
+          "authors": [
+            {
+              "name": "s-crypt",
+              "url": "github.com/s-crypt"
+            },
+            {
+              "name": "team",
+              "url": "github.com/JermaSites"
+            }
+          ],
+          "url": "debt.jerma.io"
         },
         {
           "title": "Gym Playlist",
@@ -187,17 +171,6 @@
           "url": "gymplaylist.jerma.io"
         },
         {
-          "description": "₴Ɏ₴₮Ɇ₥ ɆⱤⱤØⱤ: ƚσσ ȥσɾɳყ",
-          "authors": [
-            {
-              "name": "ጀጀጀጀጀ",
-              "url": "xxx.jerma.io"
-            }
-          ],
-          "url": "xxx.jerma.io",
-          "urlName": "ֆʏֆȶɛʍ ɛʀʀօʀ"
-        },
-        {
           "title": "Homepage",
           "description": "This page that you are looking at.",
           "authors": [
@@ -209,15 +182,84 @@
           "url": "jerma.io"
         },
         {
-          "title": "Jerma Search",
-          "description": "Search through all Jerma985 twitch streams to find quotes.",
+          "title": "Jermdle",
+          "description": "A Daily Jerma-Vod *DLE",
           "authors": [
             {
-              "name": "Martin Barker",
-              "url": "github.com/martinbarker"
+              "name": "JakariaMods",
+              "url": "https://github.com/JakariaMods",
+              "avatar": "https://github.com/JakariaMods.png"
             }
           ],
-          "url": "jermasearch.com"
+          "url": "jermdle.jerma.io"
+        },
+        {
+          "title": "Jerma Joke Tracker",
+          "description": "Tracks the +2 and -2 responses of Jerma's jokes",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "joke.jerma.io"
+        },
+        {
+          "title": "Jerma Logs",
+          "description": "A log of what Jerma has said in chat",
+          "authors": [
+            {
+              "name": "Modus Pwnens",
+              "url": "github.com/ihunter"
+            }
+          ],
+          "url": "logs.jerma.io"
+        },
+        {
+          "title": "Observing",
+          "description": "the observer jerma",
+          "authors": [
+            {
+              "name": "stick",
+              "url": "twitter.com/stick_twt",
+              "avatar": "https://github.com/sticks-stuff.png"
+            }
+          ],
+          "url": "observing.jerma.io"
+        },
+        {
+          "title": "[New!] Jerma Subtitle Search",
+          "description": "Search through everything Jerma has verbally said online.",
+          "authors": [
+            {
+              "name": "Bergbok",
+              "url": "github.com/Bergbok",
+              "avatar": "https://github.com/Bergbok.png"
+            }
+          ],
+          "url": "subtitles.jerma.io"
+        },
+        {
+          "title": "Sustext",
+          "description": "Create those <del>awful good</del> tolerable \"imposter is sus\" memes",
+          "authors": [
+            {
+              "name": "ⓗⓗⓗ",
+              "url": "github.com/aechaechaech"
+            }
+          ],
+          "url": "sustext.jerma.io"
+        },
+        {
+          "description": "₴Ɏ₴₮Ɇ₥ ɆⱤⱤØⱤ: ƚσσ ȥσɾɳყ",
+          "authors": [
+            {
+              "name": "ጀጀጀጀጀ",
+              "url": "xxx.jerma.io"
+            }
+          ],
+          "url": "xxx.jerma.io",
+          "urlName": "ֆʏֆȶɛʍ ɛʀʀօʀ"
         }
       ]
     },
@@ -265,22 +307,23 @@
             },
             {
               "name": "Blinkence",
-              "url": "deviantart.com/thomthommo",
+              "url": "https://www.deviantart.com/blinkence",
               "description": "Textures"
             },
             {
-              "name": "s-crypt",
-              "url": "deviantart.com/thomthommo",
-              "description": "Voice \"Acting\", Script, and QA (not as much as it seems)"
-            },
-            {
               "compoundSentence": "The JermaSites Community for ideas and moral support.",
-              "targets": ["JermaSites Community"],
-              "urls": ["github.com/JermaSites"]
+              "targets": [
+                "JermaSites Community"
+              ],
+              "urls": [
+                "github.com/JermaSites"
+              ]
             },
             {
               "compoundSentence": "Bop-it Model by Mike Holce",
-              "targets": ["Bop-it Model"],
+              "targets": [
+                "Bop-it Model"
+              ],
               "urls": [
                 "sketchfab.com/3d-models/retro-bop-it-1996-6ec09c2002fc45d38f0732227e237eae"
               ]
@@ -303,23 +346,6 @@
             }
           ],
           "url": "gwordlebeasts.com"
-        }
-      ]
-    },
-    {
-      "title": "WIP Sites",
-      "posts": [
-        {
-          "title": "Weather",
-          "description": "Get your local weather, Jerma style",
-          "authors": [
-            {
-              "name": "stick",
-              "url": "twitter.com/stick_twt",
-              "avatar": "https://github.com/sticks-stuff.png"
-            }
-          ],
-          "url": "weather.jerma.io"
         }
       ]
     }
