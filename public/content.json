@@ -5,6 +5,18 @@
       "title": "Our Pages",
       "posts": [
         {
+            "title": "Jerma Subtitle Search",
+            "description": "Search through everything Jerma has verbally said online.",
+            "authors": [
+              {
+                "name": "Bergbok",
+                "url": "github.com/Bergbok",
+                "avatar": "https://github.com/Bergbok.png"
+              }
+            ],
+            "url": "subtitles.jerma.io"
+        },
+        {
           "title": "Jerma Debt",
           "description": "Tracks Jerma's Debt to chat",
           "authors": [
